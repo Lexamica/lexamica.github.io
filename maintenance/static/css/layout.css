@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url("/static/fonts/cerebrisans/cerebrisans-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url("/static/fonts/cerebrisans/cerebrisans-semibold.ttf") format("truetype");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url("/static/fonts/cerebrisans/cerebrisans-medium.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url("/static/fonts/cerebrisans/cerebrisans-book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url("/static/fonts/cerebrisans/cerebrisans-regular.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url("/static/fonts/cerebrisans/cerebrisans-regular.ttf") format("truetype");
+  font-weight: light;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  font-family: 'Cerebri Sans', Arial, Helvetica, sans-serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("/maintenance/static/img/meteor-background.svg");
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+#content-container {
+  margin: auto;
+  position: relative;
+  height: 100%;
+  width: calc(100vh * 1.8); /* to prevent weird stretching on ultrawide monitors */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#illustration-container {
+  width: 40%;
+}

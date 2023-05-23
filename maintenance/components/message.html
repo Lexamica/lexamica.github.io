@@ -1,0 +1,29 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="/maintenance/static/css/message.css" />
+</head>
+
+<h1 id="message-header">
+  Lexamica is currently undergoing maintenance
+</h1>
+<div
+  id="timer-container"
+  lex-include-html="/maintenance/components/outage-timer.html"
+>
+</div>
+<p id="message-body">
+  We don't expect this maintenance outage to be very long. Try coming back in about 5-10 minutes. If you have any questions about this maintenance outage, feel free to reach out to our customer success team using the contact information below
+</p>
+<div id="message-links">
+  <button id="phone-link" class="message-link" onclick="copyPhone()">
+    <img class="link-icon" src="/maintenance/static/icons/phone.svg" alt="phone icon"/>
+    <p>(501) 500-5393</p>
+  </button>
+  <button id="email-link" class="message-link" onclick="copyEmail()">
+    <img class="link-icon" src="/maintenance/static/icons/mail.svg" alt="email icon"/>
+    <p>support@lexamica.com</p>
+  </button>
+  <a class="message-link" href="https://docs.lexamica.com/en/" target="_">
+    <img class="link-icon" src="/maintenance/static/icons/help-circle.svg" alt="help icon"/>
+    <span>Support Docs</span>
+  </a>
+</div>
